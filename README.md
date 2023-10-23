@@ -1,13 +1,11 @@
 ## Project context 
- Une application pour le restaurant "Mar7aba" offrant un service de livraison à domicile. Grâce à cette application, les clients pourront passer leur commande en
- toute simplicité, puis attendre la livraison à domicile.
+Basic authentication API contains functionalities: login, register, reset password, and account verification.
 
 ## Project folder structure   
 
 * src/: This is where your application's source code resides.  
 * controllers/: Controllers handle the logic for your routes.  
 * models/: Define your database schema and models.  
-* views/: For rendering views.  
 * routes/: Define your Express.js routes here.  
 * server.js: Start your Express server here.  
 * public/: Public assets like stylesheets, JavaScript files, images, and fonts.  
@@ -21,4 +19,4 @@
 * copy .envExample to .env
 * fill .env variables
 * npm install
-* nodemon ./src/server.js
+* npm start
