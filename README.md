@@ -20,3 +20,4 @@ Basic authentication API contains functionalities: login, register, reset passwo
 * fill .env variables
 * npm install
 * npm start
+* hit "localhost:5000/api-docs" for API documentation
